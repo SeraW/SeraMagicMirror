@@ -3,7 +3,7 @@
 Module.register("weather", {
 	// Default module config.
 	defaults: {
-		weatherProvider: "openweathermap",
+		weatherProvider: "envcanada",
 		roundTemp: false,
 		type: "current", // current, forecast, daily (equivalent to forecast), hourly (only with OpenWeatherMap /onecall endpoint)
 		lang: config.language,
@@ -20,9 +20,9 @@ Module.register("weather", {
 		allowOverrideNotification: false,
 		showPeriod: true,
 		showPeriodUpper: false,
-		showPrecipitationAmount: false,
-		showPrecipitationProbability: false,
-		showUVIndex: false,
+		showPrecipitationAmount: true,
+		showPrecipitationProbability: true,
+		showUVIndex: true,
 		showSun: true,
 		showWindDirection: true,
 		showWindDirectionAsArrow: false,

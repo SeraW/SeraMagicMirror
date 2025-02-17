@@ -34,8 +34,9 @@ WeatherProvider.register("envcanada", {
 	// Set the default config properties that is specific to this provider
 	defaults: {
 		useCorsProxy: true,
-		siteCode: "s1234567",
-		provCode: "ON"
+		siteCode: "s0000458",
+		provCode: "ON",
+		location: "Toronto, ON"
 	},
 
 	/*
